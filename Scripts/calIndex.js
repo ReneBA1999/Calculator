@@ -1,7 +1,7 @@
 "use strict"
 
 window.onload = init;
-
+//function
 function init() {
 const addBtn = document.getElementById("addBtn");
  addBtn.onclick = onAddBtnClicked;
@@ -16,7 +16,7 @@ const addBtn = document.getElementById("addBtn");
  divideBtn.onclick = onDivideBtnClicked;
  
 }
-
+//algorithm
 function onAddBtnClicked() {
     const number1Field = document.getElementById("number1Field").value;
     let  digit1 = Number(number1Field);
